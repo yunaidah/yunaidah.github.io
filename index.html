@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nama Anda - Portofolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #35424a;
+            color: white;
+            text-align: center;
+            padding: 1rem;
+        }
+        nav {
+            background-color: #2c3e50;
+            color: white;
+            padding: 0.5rem;
+        }
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin-right: 10px;
+        }
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+            padding: 20px;
+        }
+        .project {
+            background: #fff;
+            border-radius: 5px;
+            padding: 20px;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Nama Anda</h1>
+        <p>Web Developer | Designer | Photographer</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#tentang">Tentang</a></li>
+            <li><a href="#proyek">Proyek</a></li>
+            <li><a href="#kontak">Kontak</a></li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <section id="tentang">
+            <h2>Tentang Saya</h2>
+            <p>Selamat datang di portofolio saya. Saya adalah seorang pengembang web yang bersemangat dengan pengalaman dalam HTML, CSS, dan JavaScript.</p>
+        </section>
+
+        <section id="proyek">
+            <h2>Proyek Saya</h2>
+            <div class="project">
+                <h3>Proyek 1</h3>
+                <p>Deskripsi singkat tentang proyek 1.</p>
+            </div>
+            <div class="project">
+                <h3>Proyek 2</h3>
+                <p>Deskripsi singkat tentang proyek 2.</p>
+            </div>
+        </section>
+
+        <section id="kontak">
+            <h2>Kontak</h2>
+            <p>Email: email@anda.com</p>
+            <p>LinkedIn: linkedin.com/in/namaanda</p>
+            <p>GitHub: github.com/namaanda</p>
+        </section>
+    </div>
+
+    <script>
+        // JavaScript sederhana untuk smooth scrolling
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+    </script>
+</body>
+</html>
