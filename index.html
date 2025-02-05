@@ -1,193 +1,263 @@
 <!DOCTYPE html>
-<html lang="id">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Yunaidah - Web Profile</title>
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-        body {
-            font-family: Arial, sans-serif;
-            line-height: 1.6;
-            color: #333;
-            background-color: #f4f4f4;
-        }
-        .container {
-            width: 80%;
-            margin: auto;
-            overflow: hidden;
-            padding: 20px;
-        }
-        header {
-            background: #35424a;
-            color: white;
-            padding-top: 30px;
-            min-height: 70px;
-            border-bottom: #e8491d 3px solid;
-        }
-        header h1 {
-            padding-bottom: 10px;
-        }
-        nav {
-            background: #35424a;
-            color: white;
-            padding: 10px 0;
-        }
-        nav ul {
-            padding: 0;
-            list-style: none;
-        }
-        nav li {
-            display: inline;
-            margin-right: 20px;
-        }
-        nav a {
-            color: white;
-            text-decoration: none;
-            font-size: 18px;
-        }
-        section {
-            padding: 20px 0;
-            margin-bottom: 20px;
-            background: white;
-            border-radius: 5px;
-            box-shadow: 0 0 10px rgba(0,0,0,0.1);
-        }
-        h2 {
-            color: #35424a;
-            margin-bottom: 10px;
-        }
-        .work-experience, .education {
-            margin-bottom: 20px;
-        }
-        .work-experience h3, .education h3 {
-            color: #e8491d;
-        }
-        .expertise ul {
-            list-style-type: disc;
-            padding-left: 20px;
-        }
-        @media(max-width: 768px) {
-            header, nav {
-                text-align: center;
-            }
-            nav li {
-                display: block;
-                margin-bottom: 10px;
-            }
-        }
-    </style>
-</head>
-<body>
-    <header>
-        <div class="container">
-            <h1>Yunaidah</h1>
-            <p>Software Developer | Project Manager | Business Analyst</p>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portofolio - Nur Yunaidah Pratiwi</title>
+      <!-- Favicon .ico -->
+    <link rel="icon" href="assets/images/bf3fa844-eea8-484c-acfa-b336c88ec785.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@400;700&display=swap" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Arvo:wght@400;700&display=swap" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400&display=swap" />
+    <link rel="stylesheet" href="index.css" />
+    <script src=""script.js"></script>
+  </head>
+  <body>
+    <div class="main-container">
+      <div class="header">
+        <div class="navigation">
+          <div class="container">
+            <a href="#home" class="home">Home</a>
+            <a href="#about-me" class="about-me">About Me</a>
+            <a href="#my-project" class="projects">Projects</a>
+            <a href="#my-experience" class="experience">Experience</a>
+            <a href="#my-contact" class="contact">Contact</a>
+          </div>
         </div>
-    </header>
-
-    <nav>
-        <div class="container">
-            <ul>
-                <li><a href="#profile">Profile</a></li>
-                <li><a href="#experience">Experience</a></li>
-                <li><a href="#education">Education</a></li>
-                <li><a href="#expertise">Expertise</a></li>
-            </ul>
-        </div>
-    </nav>
-
-    <div class="container">
-        <section id="profile">
-            <h2>Profile</h2>
-            <p>A versatile professional with a strong background in software development, project management, and business analysis. Skilled at bridging technical and non-technical teams, I excel in developing robust solutions and ensuring seamless project delivery across platforms and frameworks.</p>
-        </section>
-
-        <section id="experience">
-            <h2>Work Experience</h2>
-            <div class="work-experience">
-                <h3>IT System Analyst</h3>
-                <p><strong>PT. Tonjoo Gagas Teknologi</strong> | 2022 – Now</p>
-                <ul>
-                    <li>Assist the project manager in planning and execution</li>
-                    <li>Create Entity-Relationship Diagrams (ERDs) for database design</li>
-                    <li>Develop wireframes and mockups for user interfaces</li>
-                    <li>Prepare detailed technical specifications</li>
-                    <li>Facilitate discussions between developers, designers, and stakeholders</li>
-                    <li>Assist in creating acceptance criteria for features</li>
-                    <li>Perform system testing and user acceptance testing</li>
-                </ul>
+      </div>
+      <div id="beranda" class="beranda">
+        <div class="container-1">
+          <div class="text">
+            <div class="hello-welcome"></div>
+            <div class="text-2">
+              <span class="nur-yunaidah-pratiwi">I m Nur Yunaidah Pratiwi</span
+              ><span class="system-analyst-business-analyst-project-manager"
+                >System Analyst . Business Analyst . Project Manager</span
+              ><span class="strong-technical-skills"
+                >Strong technical skills in software development and problem
+                analysis. Skilled in<br />client communication and project
+                management, with a track record of delivering <br />high-quality
+                projects on time.</span
+              >
             </div>
-            <div class="work-experience">
-                <h3>Web Developer</h3>
-                <p><strong>PT. AQ Business Consulting Indonesia</strong> | 2019 - 2022</p>
-                <ul>
-                    <li>Review and interpret project requirements</li>
+            <a href="#my-contact">
+            <button class="btn-contact-me">
+              <span class="contact-me">Contact me</span>
+            </button>
+            </a>
+          </div>
+          <div class="user-photo-st"><div class="nla"></div></div>
+        </div>
+      </div>
+      <div id="about-me" class="aboutme">
+        <div class="photo-user-nd"></div>
+        <div class="text-3">
+          <div class="about-me-4">
+            <span class="about">About </span><span class="me">Me</span>
+          </div>
+          <div class="text-5">
+            <div class="frame">
+              <span class="systems-analyst-experience"
+                >With over 2,3 years of experience as a Systems Analyst with a
+                passion for understanding how technology can<br />solve business
+                challenges. My experience has given me a strong foundation in
+                process analysis, requirements <br />gathering, and stakeholder
+                collaboration.<br /><br />In my current role, I've gained
+                valuable experience in requirements gathering, process
+                optimization, and <br />stakeholder communication. I'm actively
+                developing my business analysis skills, with a particular
+                interest in <br />the financial sector where technology plays a
+                crucial role in business transformation.<br
+              /></span>
+            </div>
+            <a href="#my-contact" style="text-decoration: none;">
+            <button class="frame-6">
+              <span class="contact-me-7">Contact me</span>
+            </button>
+          </a>
+          </div>
+        </div>
+      </div>
+      <div id="my-project" class="my-project">
+        <div class="frame-8">
+          <div class="my-projects">
+            <span class="my">My </span><span class="projects-9">Projects</span>
+          </div>
+          <span class="project-variations">There are many variations of my projects</span>
+        </div>
+        <div class="project-item">
+          <div class="container" style="padding-bottom: 10px;">
+            <span class="project-title">Sistem Manajemen Aset</span>
+          </div>
+            <div class="description">
+             <span class="analyze-design-system">
+                Menganalisa dan merancang sistem monitoring terhadap ratusan
+                aset berupa benda bergerak atau tidak bergerak.<br/><br/>
+                Deliverables:<br />
+                <li>Use Case Diagram & Descriptions</li>
+                <li>Interface Mockups</li>
+                <li>Entity Relationship Diagram (ERD)</li><br/>
+                Tools : Figma, Balsamiq, Drawio<br/>
+                Link: </span>
+              <span class="link">https://asset.twc.id<br /></span>
+              <span class="client-info">Client: PT Taman Wisata Candi</span>
+          </div>
+          <div class="line-d" style="margin-bottom: 30px; margin-top: 30px;"></div>
+          <div class="container">
+            <span class="project-title">Sistem Manajemen Kepegawaian</span>
+          </div>
+            <div class="description">
+             <span class="analyze-design-system">
+              Menganalisa sistem ERP yang sudah berjalan (desktop apps) dan membuat ulang dengan versi website serta menambahakan beberapa fitur baru.<br/><br/>
+                Deliverables:<br />
+                <li>As Is & To Be Documentation</li>
+                <li>Data Migration Strategy</li>
+                <li>Stakeholder Analysis Matrix</li>
+                <li>User Interface Mockups</li>
+                <li>Entity Relationship Diagram (ERD)</li>
+                <li>User Acceptance Test Plans</li><br/>
+                Tools :Gitlab, Figma, Balsamiq, Drawio, DBeaver<br/>
+                Link: </span>
+              <span class="link">https://my.twc.id<br /></span>
+              <span class="client-info">Client: PT Taman Wisata Candi</span>
+          </div>
+          <div class="line-d" style="margin-bottom: 30px; margin-top: 30px;"></div>
+          <div class="container">
+            <span class="project-title">Sistem eProcurement</span>
+          </div>
+            <div class="description">
+             <span class="analyze-design-system">
+              Menganalisa dan merancang sistem pengadaan barang & jasa sesuai flow bisnis yang sudah berlangsung.<br/><br/>
+              Deliverables:<br />
+                <li>User Requirements Document</li>
+                <li>Approval Workflow Requirements</li>
+                <li>Functional & Non-Functional Requirements</li>
+                <li>Email Notification System</li>
+                <li>Audit Trail Requirements</li>
+                <li>Entity Relationship Diagram (ERD)</li>
+                <li>User Acceptance Test Plans</li><br/>
+                Tools :Gitlab, Figma, Balsamiq, Drawio, DBeaver<br/>
+                Link: </span>
+              <span class="link">https://eproc.twc.id<br /></span>
+              <span class="client-info">Client: PT Taman Wisata Candi</span>
+          </div>
+        </div>
+      </div>
+      <div id="my-experience" class="experience-e">
+        <div class="experience-f">
+          <div class="frame-10">
+            <div class="frame-11">
+              <div class="my-experiences">
+                <span class="my-12">My</span><span class="space"> </span
+                ><span class="my-13">Experiences</span>
+              </div>
+            </div>
+            <span class="variations-experiences"
+              >There are many variations of my experiences</span
+            >
+          </div>
+          <div class="frame-14">
+            <div class="frame-15">
+              <div class="frame-16">
+                <span class="time-period">Oct 2022 - Des 2024</span>
+                <div class="group-8">
+                  <div class="frame-17">
+                    <span class="it-system-analyst">IT System Analyst</span
+                    ><span class="text-18"> </span>
+                  </div>
+                  <div class="frame-19">
+                    <span class="system-design">
+                      <li>Translate user requirements into comprehensive system designs and detail technical specifications</li>
+                      <li>Analyze and optimize business processes through logical thinking and systematic approaches</li>
+                      <li>Develop detailed business and technical models for application development</li>
+                      <li>Lead cross-functional teams while maintaining effective communication between technical teams and stakeholders</li>
+                      <li>Conduct feature testing and stakeholder demonstrations to ensure alignment with requirements</li>
+                      <li>Facilitate project delivery as backup Project Manager</li>
+                      <li>Drive successful project outcomes through strong interpersonal communication and leadership skills</li>
+                    </span
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="frame-1a">
+              <div class="frame-1b">
+                <span class="date-range">Jun 2019 - Sep 2022</span>
+                <div class="frame-1c">
+                  <div class="frame-1d">
+                    <span class="programmer">Programmer</span>
+                  </div>
+                  <span class="mvc-architecture">
                     <li>Implement MVC architecture and follow Laravel best practices</li>
                     <li>Develop and maintain RESTful APIs using FastAPI</li>
-                    <li>Create applications using the Outsystems lowcode platform</li>
+                    <li>Create applications using the Outsystems low-code platform</li>
                     <li>Diagnose and resolve software defects across all platforms</li>
+                    <li>Use Git for version control</li>
                     <li>Update task status on the Scrum board regularly</li>
-                </ul>
+                    <li>Prepare and conduct demos of completed features to the business team</li>
+                  </span>
+                </div>
+              </div>
             </div>
-        </section>
-
-        <section id="education">
-            <h2>Education</h2>
-            <div class="education">
-                <h3>S1 - Computer Science</h3>
-                <p><strong>Binus University</strong> | 2021 - 2023</p>
+          </div>
+        </div>
+      </div>
+      <div id="my-contact" class="contact-1e">
+        <div class="frame-1f">
+          <div class="frame-20">
+            <div class="contact-me-21">
+              <span class="contact-22">Contact </span
+              ><span class="me-23">Me</span>
             </div>
-            <div class="education">
-                <h3>D3 - Informatics Engineering</h3>
-                <p><strong>Amikom University</strong> | 2016 - 2019</p>
+          </div>
+          <span class="reach-out">You can reach out to me anytime...</span>
+        </div>
+        <div class="frame-24">
+          <div class="frame-25">
+            <div class="address">
+              <span class="address-26">Address _ </span
+              ><span class="text-25"
+                >Jl. Godean km 8, Sleman, DIY, Indonesia</span
+              >
             </div>
-        </section>
-
-        <section id="expertise">
-            <h2>Expertise</h2>
-            <ul>
-                <li>Strong communication</li>
-                <li>Problem-solving and analytical thinking</li>
-                <li>Time management</li>
-                <li>Perform system testing</li>
-            </ul>
-        </section>
+            <div class="wrapper-10">
+              <span class="text-26">Phone _ </span
+              ><span class="text-27">+6285647992998</span>
+            </div>
+            <div class="box-7">
+              <span class="text-28">E mail _ </span
+              ><span class="text-29">yunaidah20@gmail.com</span>
+            </div>
+          </div>
+          <div class="group-c">
+              <!-- Form untuk mengirim pesan -->
+            <form id="whatsappForm" onsubmit="sendMessage(event)">
+              <textarea id="message" name="message" placeholder="Type your message here" required></textarea><br><br>
+              <button type="submit" class="frame-6" style="padding: 8px 20px 8px 20px;">
+                <span class="text-2c">Send Via WA</span>
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+      <div class="section-10">
+        <div class="wrapper-12">
+          <a href="https://www.linkedin.com/in/yunaidah/"><div class="img-6"></div></a> 
+          <a href="https://www.instagram.com/yunaidahpratiwi/?hl=en"><div class="pic-3"></div></a>
+        </div>
+      </div>
     </div>
-
-    <script>
-        // Smooth scrolling for navigation links
-        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-            anchor.addEventListener('click', function (e) {
-                e.preventDefault();
-
-                document.querySelector(this.getAttribute('href')).scrollIntoView({
-                    behavior: 'smooth'
-                });
-            });
-        });
-
-        // Highlight active section in navigation
-        window.addEventListener('scroll', () => {
-            let current = '';
-            document.querySelectorAll('section').forEach(section => {
-                const sectionTop = section.offsetTop;
-                if (pageYOffset >= sectionTop - 60) {
-                    current = section.getAttribute('id');
-                }
-            });
-
-            document.querySelectorAll('nav a').forEach(li => {
-                li.classList.remove('active');
-                if (li.getAttribute('href').slice(1) === current) {
-                    li.classList.add('active');
-                }
-            });
-        });
-    </script>
-</body>
+  </body>
 </html>
+
+
+<script>
+
+    function sendMessage(event) {
+      event.preventDefault(); // Mencegah form submit default
+      var message = document.getElementById('message').value; // Ambil nilai pesan
+      var phoneNumber = "6285647992998"; // Ganti dengan nomor WhatsApp yang ingin dihubungi (harus dalam format internasional tanpa tanda +)
+      var url = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`; // URL WhatsApp
+      window.open(url, '_blank'); // Buka WhatsApp di tab baru
+    }
+</script>
